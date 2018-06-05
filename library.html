@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="searchbar">
+            <input type="text" name="search_string">
+            <input type="submit" value="search" name="search_button">
+        </div>
+        <div id="userbar">
+            <p>my username</p>
+        </div>
+    </div>
+
+    <script src="gui_movie.js"></script>
+    <div id="grid">
+        <div class="grid_item">
+            <input type="submit" onclick="guiCreateMovieFromInput()" value="+">
+            <div class="grid_item_picture">
+                <img src="movie_pic.png" height="200" width="200">
+            </div>
+            <div class="grid_item_title">
+                <input type="text" value="TITEL" id="input_title">
+            </div>
+            <div class="grid_item_director">
+                <input type="text" value="DIRECTOR" id="input_director">
+            </div>
+            <div class="grid_item_actor">
+                <input type="text" value="ACTOR" id="input_actor">
+            </div>
+            <div class="grid_item_yearOfPublication">
+                <input type="text" value="YEAR OF PUBLICATION" id="input_yearOfPublication">
+            </div>
+            <div class="grid_item_genre">
+                <input type="text" value="GENRE" id="input_genre">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
